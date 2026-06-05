@@ -6,6 +6,8 @@ A comprehensive interactive dashboard built with Streamlit to analyze Netflix co
 ## 📸 Dashboard Screenshots & Features
 
 ### Screenshot 1️⃣ : Filters & Key Metrics
+![Dashboard Filters & Metrics](https://raw.githubusercontent.com/patelsavan2007-byte/synent-task-3-Netflix-Dashboard-savan/main/screenshots/screenshot-1-filters-metrics.png)
+
 **Features Shown:**
 - **Left Sidebar Filters** - Interactive controls for:
   - Content Type (Movies/TV Shows)
@@ -19,6 +21,8 @@ A comprehensive interactive dashboard built with Streamlit to analyze Netflix co
   - Countries: 87+
 
 ### Screenshot 2️⃣ : Visualizations & Charts
+![Dashboard Visualizations](https://raw.githubusercontent.com/patelsavan2007-byte/synent-task-3-Netflix-Dashboard-savan/main/screenshots/screenshot-2-visualizations.png)
+
 **Features Shown:**
 - **Movies vs TV Shows Distribution** (Pie Chart)
   - 69.6% Movies
@@ -31,6 +35,8 @@ A comprehensive interactive dashboard built with Streamlit to analyze Netflix co
   - Responsive design scales to screen size
 
 ### Screenshot 3️⃣ : Data Tables & Search
+![Dashboard Data Tables](https://raw.githubusercontent.com/patelsavan2007-byte/synent-task-3-Netflix-Dashboard-savan/main/screenshots/screenshot-3-data-tables.png)
+
 **Features Shown:**
 - **Data Tables Section** with 4 Tabs:
   1. **Full Dataset** - All 8,806 items with columns:
