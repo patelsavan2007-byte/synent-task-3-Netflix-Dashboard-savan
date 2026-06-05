@@ -3,27 +3,45 @@
 ## 📊 Overview
 A comprehensive interactive dashboard built with Streamlit to analyze Netflix content data. The dashboard provides rich visualizations and filtering capabilities to explore movies, TV shows, ratings, genres, and more.
 
-## 📸 Dashboard Screenshots
+## 📸 Dashboard Screenshots & Features
 
-### Screenshot 1: Filters & Key Metrics
-![Dashboard Overview](https://github.com/user-attachments/raw/main/dashboard-filters-metrics.png)
+### Screenshot 1️⃣ : Filters & Key Metrics
 **Features Shown:**
-- Left Sidebar with interactive filters (Content Type, Ratings, Release Year)
-- Key Metrics dashboard displaying Total Content (8,806), Movies (6,130), TV Shows (2,676), Average Release Year (2014), Countries (87)
+- **Left Sidebar Filters** - Interactive controls for:
+  - Content Type (Movies/TV Shows)
+  - Ratings (TV-MA, TV-14, PG-13, etc.)
+  - Release Year Range (1925-2021)
+- **Key Metrics Dashboard** - 5 cards displaying:
+  - Total Content: 8,806
+  - Movies: 6,130
+  - TV Shows: 2,676
+  - Average Release Year: 2014
+  - Countries: 87+
 
-### Screenshot 2: Visualizations
-![Dashboard Charts](https://github.com/user-attachments/raw/main/dashboard-charts.png)
+### Screenshot 2️⃣ : Visualizations & Charts
 **Features Shown:**
-- Movies vs TV Shows Distribution (Pie Chart) - 69.6% Movies, 30.4% TV Shows
-- Top 10 Content Ratings (Bar Chart) - TV-MA, TV-14, TV-PG, etc.
-- All filters are fully interactive and charts update in real-time
+- **Movies vs TV Shows Distribution** (Pie Chart)
+  - 69.6% Movies
+  - 30.4% TV Shows
+- **Top 10 Content Ratings** (Bar Chart)
+  - TV-MA (Most common)
+  - TV-14, TV-PG, R, PG-13, and more
+- **Real-time Interactivity**
+  - All filters update charts instantly
+  - Responsive design scales to screen size
 
-### Screenshot 3: Data Tables & Search
-![Dashboard Data Tables](https://github.com/user-attachments/raw/main/dashboard-tables.png)
+### Screenshot 3️⃣ : Data Tables & Search
 **Features Shown:**
-- Data Tables section with 4 tabs: Full Dataset, Top Directors, Top Cast Members, Dataset Info
-- Full Dataset tab displaying all 8,806 items with columns: show_id, type, title, director, cast, country, date_added, release_year
-- Search Content section at the bottom for real-time title search
+- **Data Tables Section** with 4 Tabs:
+  1. **Full Dataset** - All 8,806 items with columns:
+     - show_id, type, title, director, cast, country, date_added, release_year
+  2. **Top Directors** - Directors ranked by content count
+  3. **Top Cast Members** - Most frequently appearing actors
+  4. **Dataset Info** - Statistics and metadata
+- **Search Content** Section
+  - Real-time title search
+  - Instant results display
+  - Filter matching rows
 
 ## ✨ Features
 
