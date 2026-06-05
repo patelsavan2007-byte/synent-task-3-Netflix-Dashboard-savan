@@ -1,0 +1,152 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                 NETFLIX STREAMLIT DASHBOARD - QUICK REFERENCE               ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+🎬 DASHBOARD URL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  http://localhost:8501
+
+🚀 START COMMAND
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  cd d:\Projects\SYNENT-DS\TASK-4
+  streamlit run app.py
+
+📦 REQUIRED PACKAGES (Auto-Installed)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  ✓ streamlit
+  ✓ pandas
+  ✓ matplotlib
+  ✓ seaborn
+  ✓ numpy
+
+📊 DASHBOARD SECTIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  LEFT SIDEBAR (FILTERS)
+  • Content Type: Movies / TV Shows
+  • Ratings: PG-13, TV-MA, etc.
+  • Release Year: Slider range
+
+  TOP SECTION (METRICS)
+  📊 Total Content
+  🎬 Movies
+  📺 TV Shows
+  📅 Avg Release Year
+  🌍 Countries
+
+  VISUALIZATIONS
+  📈 Movies vs TV Shows (Pie)
+  ⭐ Top Ratings (Bar)
+  📉 Release Year Trend (Line)
+  🌍 Top Countries (Bar)
+  🎭 Top Genres (Bar)
+  📅 Content Added (Bar)
+
+  DATA TABLES
+  📋 Full Dataset
+  👨‍💼 Top Directors
+  👨‍🎭 Top Cast
+  📊 Dataset Info
+
+  SEARCH
+  🔎 Search by Title
+
+📁 PROJECT FILES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  app.py (9.7 KB)
+  netflix_titles.csv (3.3 MB) - 8,800+ titles
+  README.md - Full documentation
+  GETTING_STARTED.md - Usage guide
+  INSTALLATION_GUIDE.md - Setup guide
+
+🎯 COMMON TASKS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  FIND BY RATING
+  → Adjust "Select Ratings" in sidebar
+  → Check "Top Ratings" chart
+  → View "Full Dataset" tab
+
+  COMPARE MOVIES vs TV SHOWS
+  → Toggle "Select Content Type" in sidebar
+  → Metrics update automatically
+  → Check pie chart distribution
+
+  SEARCH FOR TITLE
+  → Scroll to "Search Content" section
+  → Type title name
+  → View matching results instantly
+
+  EXPLORE DIRECTORS/ACTORS
+  → Click "Top Directors" tab
+  → Click "Top Cast Members" tab
+  → Search by name in Full Dataset
+
+  ANALYZE TRENDS
+  → Check "Release Year Trend" line chart
+  → View "Content Added by Year" chart
+  → Adjust year range slider to filter
+
+⌨️ KEYBOARD SHORTCUTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  R     = Rerun script
+  C     = Clear cache
+  D     = Developer mode
+  M     = Toggle menu
+  Ctrl+C (Terminal) = Stop app
+
+⚙️ PORT MANAGEMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Default Port: 8501
+  Change Port: streamlit run app.py --server.port 8502
+  Check Port:  netstat -ano | findstr "8501"
+
+🐛 TROUBLESHOOTING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ERROR: ModuleNotFoundError
+  FIX: pip install streamlit pandas matplotlib seaborn
+
+  ERROR: Port already in use
+  FIX: streamlit run app.py --server.port 8502
+
+  ERROR: CSV file not found
+  FIX: Verify netflix_titles.csv in project folder
+
+  ERROR: Dashboard won't load
+  FIX: Refresh browser (F5) or restart terminal
+
+  ERROR: Charts not showing
+  FIX: Clear browser cache, refresh, or restart
+
+📈 DATA STATISTICS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Total Titles: 8,807
+  Movies: 6,131
+  TV Shows: 2,676
+  Countries: 100+
+  Years: 1925 - 2021
+  Ratings: 15+ types
+
+📚 DOCUMENTATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  README.md           → Technical details
+  GETTING_STARTED.md  → User guide & workflows
+  INSTALLATION_GUIDE  → Setup & troubleshooting
+
+💡 PRO TIPS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  ✓ Fewer filters = Faster rendering
+  ✓ Use specific searches for best results
+  ✓ Refresh browser if charts seem slow
+  ✓ Close other tabs for better performance
+  ✓ Data loads once, filters are instant
+
+✨ STATUS: ✅ READY TO USE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Dashboard is fully functional and ready for production use!
+  All 6 visualizations, 4 data tabs, and search features working.
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    START NOW: streamlit run app.py                           ║
+╚══════════════════════════════════════════════════════════════════════════════╝
